@@ -1,0 +1,11 @@
+print("Digite seu nome completo:")
+nome = input()
+nome_maiusculo = nome.upper()
+print("Nome com letras maiusculas: {}" .format(nome_maiusculo))
+nome_minusculo = nome.lower()
+print("Nome com letras minuscula: {}" .format(nome_minusculo))
+nome_tamanho = len(nome)
+print(nome_tamanho)
+partes = nome.split()
+partes[-1] = "do Inatel"
+print(" ".join(partes))
